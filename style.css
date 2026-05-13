@@ -145,7 +145,7 @@ header {
 }
 
 .cont-texto-primaria {
-    margin-top: 27vw; /* Más compacto en escritorio */
+    margin-top: 28vw; /* Desktop estándar */
     max-width: 600px;
     margin-inline: auto;
     padding: 20px;
@@ -360,9 +360,13 @@ footer a:hover {
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+    .cont-texto-primaria { margin-top: 35vw; }
+}
+
 @media (max-width: 1024px) {
-    #section-primaria h1 { font-size: 2.5rem; }
-    .cont-texto-primaria { margin-top: 250px; padding: 0 5%; }
+    #section-primaria h1 { font-size: 2.2rem; }
+    .cont-texto-primaria { margin-top: 45vw; padding: 0 5%; }
     .content-wrapper { gap: 2rem; }
 }
 

@@ -395,27 +395,32 @@ footer a:hover {
     }
 
     #listanavbar {
-        gap: 0.4rem;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.3rem;
         width: 100%;
-        padding: 0.5rem 0;
-        overflow-x: auto; /* Permite scroll horizontal si la pantalla es muy chica */
-        -webkit-overflow-scrolling: touch;
+        padding: 0.4rem 0;
     }
 
     .logomini {
-        height: 24px;
+        height: 22px;
         width: auto;
-        margin: 0;
-        flex-shrink: 0;
+        margin-bottom: 0.2rem;
+    }
+
+    .nav-links-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.4rem;
+        width: 100%;
     }
 
     #listanavbar a {
-        font-size: 0.6rem;
-        padding: 4px 6px;
+        font-size: 0.65rem;
+        padding: 4px 8px;
         white-space: nowrap;
-        flex-shrink: 0;
     }
 
     /* Forzamos que "Preguntas Frecuentes" y "Contacto" bajen si no caben, 
@@ -435,8 +440,8 @@ footer a:hover {
     }
 
     .cont-texto-primaria {
-        margin-top: 85vw; /* Subimos un poco el texto respecto al valor anterior */
-        padding: 0 8%;
+        margin-top: 140vw; /* Aumentamos mucho el margen para evitar el solapamiento en móviles */
+        padding: 0 5%;
     }
 
     #section-primaria h1 { 
@@ -498,7 +503,7 @@ footer a:hover {
     #section-primaria h1 { font-size: 1.6rem; }
 
     .cont-texto-primaria {
-        margin-top: 110vw; /* Subimos un poco en pantallas muy chicas */
+        margin-top: 160vw; /* Aún más espacio para pantallas muy pequeñas tipo Samsung */
         padding: 0 5%;
     }
 

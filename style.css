@@ -381,25 +381,27 @@ footer a:hover {
     }
 
     #listanavbar {
-        gap: 0.5rem;
-        flex-wrap: wrap;
-        justify-content: center;
+        gap: 0.4rem;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
         width: 100%;
-        padding: 0.2rem 0;
+        padding: 0.5rem 0;
+        overflow-x: auto; /* Permite scroll horizontal si la pantalla es muy chica */
+        -webkit-overflow-scrolling: touch;
     }
 
     .logomini {
-        height: 28px;
+        height: 24px;
         width: auto;
         margin: 0;
-        display: inline-block;
-        object-fit: contain;
+        flex-shrink: 0;
     }
 
     #listanavbar a {
-        font-size: 0.68rem;
-        padding: 4px 8px;
+        font-size: 0.6rem;
+        padding: 4px 6px;
         white-space: nowrap;
+        flex-shrink: 0;
     }
 
     /* Forzamos que "Preguntas Frecuentes" y "Contacto" bajen si no caben, 
@@ -419,7 +421,7 @@ footer a:hover {
     }
 
     .cont-texto-primaria {
-        margin-top: 100vw; /* Bajamos más el texto para que no pise el logo en móvil */
+        margin-top: 85vw; /* Subimos un poco el texto respecto al valor anterior */
         padding: 0 8%;
     }
 
@@ -482,7 +484,7 @@ footer a:hover {
     #section-primaria h1 { font-size: 1.6rem; }
 
     .cont-texto-primaria {
-        margin-top: 130vw; /* Aún más espacio para pantallas muy pequeñas */
+        margin-top: 110vw; /* Subimos un poco en pantallas muy chicas */
         padding: 0 5%;
     }
 

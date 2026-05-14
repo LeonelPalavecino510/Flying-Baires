@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Flying Baires - Un Vuelo Libre por Buenos Aires</title>
+    <meta name="description" content="Contactate con Flying Baires para conseguir tu juego. Copia nuestro mail y escribinos para coordinar tu pedido.">
+    <meta name="keywords" content="contacto, Flying Baires, comprar juego, Buenos Aires, email">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://leonelpalavecino510.github.io/Flying-Baires/contacto.html">
+    <meta property="og:title" content="Contacto - Flying Baires">
+    <meta property="og:description" content="¿Querés conseguir tu juego? Contactate con nosotros de forma simple.">
+    <meta property="og:image" content="https://leonelpalavecino510.github.io/Flying-Baires/img/logohero.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css?v=3.1">
+</head>
+<body>
+    <header id="inicio">
+        <nav class="navbar">
+            <div id="listanavbar">   
+                <img class="logomini" src="img/logo-navbar-azul.png" alt="Logo barra navegación">
+                <div class="nav-links-wrapper">
+                    <a href="index.html">Inicio</a>
+                    <a href="equipo.html">Equipo</a>
+                    <a href="juego.html">Juego</a>
+                    <a href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                    <a class="seleccionado" href="contacto.html">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="section-paginas-internas">
+            <div class="contenedor-interno">
+                <h1 class="titulo-interno">Contacto</h1>
+                
+                <div class="contacto-container">
+                    <div class="contacto-flujo">
+                        <h3>¿Cómo conseguir tu juego?</h3>
+                        <p>Para brindarte una <span class="texto-naranja">atención personalizada</span> y directa, manejamos los pedidos vía mail o WhatsApp. Es muy simple:</p>
+                        
+                        <div class="pasos-contacto">
+                            <div class="paso-item">
+                                <span class="paso-numero">1</span>
+                                <p><span class="texto-negrita">Copia</span> nuestro correo electrónico oficial.</p>
+                            </div>
+                            <div class="paso-item">
+                                <span class="paso-numero">2</span>
+                                <p><span class="texto-negrita">Escribinos</span> un mensaje con tu consulta o pedido.</p>
+                            </div>
+                            <div class="paso-item">
+                                <span class="paso-numero">3</span>
+                                <p><span class="texto-negrita">¡Listo!</span> Te responderemos para coordinar el envío.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="email-box" onclick="copiarEmail()">
+                        <span id="email-text">info@flyingbaires.com.ar</span>
+                        <div class="copy-icon">
+                            <svg xmlns="http://www.w3.org/2001/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                        </div>
+                        <div class="tooltip" id="myTooltip">¡Copiado!</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-brand">
+            <img src="img/logo-navbar-azul.png" alt="Flying Baires Logo">
+            <p>© 2026 Flying Baires<br>Todos los derechos reservados.</p>
+        </div>
+        
+        <div class="footer-links">
+            <h4>Navegación</h4>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="equipo.html">Equipo</a></li>
+                <li><a href="juego.html">El Juego</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-legal">
+            <h4>Legal</h4>
+            <ul>
+                <li><a href="#">Políticas de uso</a></li>
+                <li><a href="#">Legales</a></li>
+                <li><a href="#">Privacidad</a></li>
+            </ul>
+        </div>
+        
+        <div class="boton-arriba">
+            <a href="#main-content" aria-label="Volver arriba">
+                <img src="img/icons8-arriba-24.png" alt="Flecha arriba">
+            </a>
+        </div>
+    </footer>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <script src="script.js"></script>
+    <script>
+        function copiarEmail() {
+            var emailText = document.getElementById("email-text").innerText;
+            navigator.clipboard.writeText(emailText).then(function() {
+                var tooltip = document.getElementById("myTooltip");
+                tooltip.style.opacity = "1";
+                setTimeout(function() {
+                    tooltip.style.opacity = "0";
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>

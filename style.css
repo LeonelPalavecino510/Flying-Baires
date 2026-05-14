@@ -20,7 +20,7 @@
 .cursor-dot {
     width: 8px;
     height: 8px;
-    background-color: white; /* Blanco para que la inversión sea total */
+    background-color: white; /* Blanco para que la inversiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n sea total */
     position: fixed;
     top: 0;
     left: 0;
@@ -28,13 +28,13 @@
     border-radius: 50%;
     z-index: 10000;
     pointer-events: none;
-    mix-blend-mode: difference; /* Invierte colores según el fondo */
+    mix-blend-mode: difference; /* Invierte colores segÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âºn el fondo */
 }
 
 .cursor-outline {
     width: 30px;
     height: 30px;
-    border: 3px solid white; /* Borde más grueso */
+    border: 3px solid white; /* Borde mÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡s grueso */
     position: fixed;
     top: 0;
     left: 0;
@@ -49,7 +49,7 @@
 .cursor-hover {
     width: 70px !important;
     height: 70px !important;
-    background-color: white !important; /* Se vuelve un círculo sólido al invertir */
+    background-color: white !important; /* Se vuelve un cÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­rculo sÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³lido al invertir */
 }
 
 html {
@@ -74,7 +74,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 9000; /* Aseguramos que esté por debajo del cursor pero por encima de todo lo demás */
+    z-index: 9000; /* Aseguramos que estÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© por debajo del cursor pero por encima de todo lo demÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡s */
     transition: all 0.3s ease;
 }
 
@@ -82,7 +82,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 5%; /* Un poco más delgada para que no ocupe tanto espacio fija */
+    padding: 0.5rem 5%; /* Un poco mÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡s delgada para que no ocupe tanto espacio fija */
     background: rgba(61, 145, 242, 0.9); /* Azul con ligera transparencia */
     backdrop-filter: blur(10px); /* Efecto de desenfoque premium */
     -webkit-backdrop-filter: blur(10px);
@@ -113,7 +113,7 @@ header {
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin-left: auto; /* Empuja los links a la derecha si el logo está a la izquierda */
+    margin-left: auto; /* Empuja los links a la derecha si el logo estÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ a la izquierda */
 }
 
 #listanavbar a:hover {
@@ -152,7 +152,7 @@ header {
 }
 
 .cont-texto-primaria {
-    margin-top: 27vw; /* Revertido a la posición previa para desktop */
+    margin-top: 27vw; /* Revertido a la posiciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n previa para desktop */
     max-width: 600px;
     margin-inline: auto;
     padding: 20px;
@@ -175,7 +175,7 @@ header {
     font-weight: 500;
     margin-bottom: 1.3rem;
     line-height: 1.3;
-    opacity: 0; /* Empieza invisible para la animación */
+    opacity: 0; /* Empieza invisible para la animaciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n */
     margin-top:1.3rem;
     animation: fadeUp 0.8s ease-out 0.2s forwards; /* Retraso de 0.2s */
 }
@@ -205,7 +205,7 @@ header {
 .texto-azuloscuro {
     color: var(--azul-oscuro);
     font-weight: 700;
-    border-bottom: 2px solid rgba(0, 86, 179, 0.2); /* Una línea sutil para dar énfasis */
+    border-bottom: 2px solid rgba(0, 86, 179, 0.2); /* Una lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­nea sutil para dar ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©nfasis */
     text-decoration:none;
 }
 
@@ -220,7 +220,7 @@ header {
     font-weight: bold;
     opacity: 0;
     animation: fadeUp 0.8s ease-out 0.6s forwards; /* Retraso de 0.6s */
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Efecto elástico */
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Efecto elÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡stico */
 }
 
 #boton-main:hover{
@@ -426,7 +426,7 @@ footer a:hover {
 
 
 @media (max-width: 768px) {
-    /* Desactivar cursor personalizado en táctiles */
+    /* Desactivar cursor personalizado en tÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ctiles */
     .cursor-dot, .cursor-outline { display: none; }
     * { cursor: auto !important; }
 
@@ -437,7 +437,7 @@ footer a:hover {
 
     #listanavbar {
         display: flex;
-        flex-direction: row; /* Cambiamos a fila para intentar que todo entre en una línea */
+        flex-direction: row; /* Cambiamos a fila para intentar que todo entre en una lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­nea */
         align-items: center;
         justify-content: space-between;
         gap: 0.2rem;
@@ -453,14 +453,14 @@ footer a:hover {
 
     .nav-links-wrapper {
         display: flex;
-        flex-wrap: nowrap; /* Forzamos una sola línea */
+        flex-wrap: nowrap; /* Forzamos una sola lÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­nea */
         justify-content: flex-end;
         gap: 0.2rem;
         flex-grow: 1;
     }
 
     #listanavbar a {
-        font-size: 0.52rem; /* Reducción máxima para que entre todo */
+        font-size: 0.52rem; /* ReducciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n mÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡xima para que entre todo */
         padding: 4px 2px;
         white-space: nowrap;
         letter-spacing: -0.4px;
@@ -501,7 +501,7 @@ footer a:hover {
 
     #boton-main {
         padding: 15px 35px;
-        width: 100%; /* Botón ancho completo en móvil para mejor click */
+        width: 100%; /* BotÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n ancho completo en mÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³vil para mejor click */
     }
 
     .content-wrapper {
@@ -510,7 +510,7 @@ footer a:hover {
     }
 
     .image-content {
-        order: -1; /* La imagen siempre arriba en móvil */
+        order: -1; /* La imagen siempre arriba en mÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³vil */
     }
 
     .section-terciaria, #section-secundaria {
@@ -552,7 +552,7 @@ footer a:hover {
     #section-primaria h1 { font-size: 1.6rem; }
 
     .cont-texto-primaria {
-        margin-top: 130vw; /* Aumentado para evitar solape en pantallas extra pequeñas */
+        margin-top: 130vw; /* Aumentado para evitar solape en pantallas extra pequeÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â±as */
         padding: 0 5%;
     }
 
@@ -564,7 +564,334 @@ footer a:hover {
 
 @media (max-width:414px) {
     .cont-texto-primaria {
-        margin-top: 115vw; /* Aumentado para evitar solape en pantallas extra pequeñas */
+        margin-top: 115vw; /* Aumentado para evitar solape en pantallas extra pequeÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â±as */
         padding: 0 5%;
     }
 }
+/* --- PÃƒÆ’Ã‚Â¡ginas Internas (Equipo, Juego, etc) --- */
+.section-paginas-internas {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/fondo-secundario.png);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed; /* Mantiene el fondo fijo para que no se "acerque" en páginas largas */
+    padding: 140px 5% 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-interno {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeUp 0.8s ease-out forwards;
+}
+
+.titulo-interno {
+    font-family: var(--font-secundaria);
+    font-size: 4.5rem;
+    color: #1a4a4a;
+    margin-bottom: 4rem;
+    text-align: center;
+    animation: fadeDown 0.8s ease-out;
+}
+
+.columnas-interno {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
+}
+
+.texto-interno {
+    flex: 1.2;
+}
+
+.texto-interno p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: var(--texto-oscuro);
+}
+
+.imagen-interna {
+    flex: 1;
+}
+
+.imagen-interna img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+    transition: transform 0.5s ease;
+}
+
+.imagen-interna img:hover {
+    transform: translateY(-10px) rotate(1deg);
+}
+
+/* Responsive Internas */
+@media (max-width: 1024px) {
+    .columnas-interno {
+        gap: 3rem;
+    }
+    .titulo-interno {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-paginas-internas {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    
+    .contenedor-interno {
+        text-align: center;
+    }
+
+    .titulo-interno {
+        font-size: 2.8rem;
+        margin-bottom: 2rem;
+        order: 1; /* TÃ­tulo siempre primero */
+    }
+
+    .columnas-interno, .contacto-container, .faq-container {
+        flex-direction: column;
+        gap: 2.5rem;
+        order: 2; /* Contenido siempre después del título */
+        width: 100%;
+    }
+    
+    .imagen-interna {
+        width: 100%;
+        order: 3; /* Imagen tercera (abajo) */
+    }
+
+    .texto-interno {
+        width: 100%;
+        order: 2; /* Texto segundo (en medio) */
+    }
+    
+    .texto-interno p {
+        font-size: 1.1rem;
+    }
+}
+
+
+.texto-naranja {
+    color: #e67e22; /* Naranja vibrante para resaltar */
+    font-weight: 600;
+}
+.texto-negrita {
+    font-weight: 700;
+    color: #1a4a4a; /* Mismo color que los tÃƒÂ­tulos para coherencia */
+}
+
+
+/* --- PÃ¡gina de Contacto --- */
+.contacto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    padding: 3rem;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+}
+
+.contacto-flujo {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.contacto-flujo h3 {
+    font-family: var(--font-secundaria);
+    font-size: 2rem;
+    color: #1a4a4a;
+    margin-bottom: 1rem;
+}
+
+.pasos-contacto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.paso-item {
+    padding: 1.5rem;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.paso-item:hover {
+    transform: translateY(-5px);
+}
+
+.paso-numero {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: var(--dorado);
+    color: white;
+    border-radius: 50%;
+    line-height: 35px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.email-box {
+    background: #1a4a4a;
+    color: white;
+    padding: 1.5rem 2.5rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.email-box:hover {
+    background: #2a6a6a;
+    transform: scale(1.02);
+}
+
+.email-box span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.copy-icon {
+    opacity: 0.7;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--dorado);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.email-box:active .tooltip {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .pasos-contacto {
+        grid-template-columns: 1fr;
+    }
+    .contacto-container {
+        padding: 2rem 1.5rem;
+        width: 95%;
+    }
+    .email-box {
+        flex-direction: column;
+        padding: 1.5rem;
+        text-align: center;
+    }
+}
+
+
+/* --- Página de Preguntas Frecuentes --- */
+.faq-container {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.faq-categoria {
+    margin-bottom: 5rem;
+}
+
+.faq-categoria h2 {
+    font-family: var(--font-secundaria);
+    font-size: 2.2rem;
+    color: #e67e22;
+    margin-bottom: 2.5rem;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.faq-categoria h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 30px;
+    background: var(--dorado);
+    border-radius: 10px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.faq-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.faq-card:hover {
+    background: white;
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.08);
+}
+
+.faq-pregunta {
+    display: block;
+    font-family: var(--font-primaria);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #1a4a4a;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.faq-respuesta {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #444;
+}
+
+@media (max-width: 768px) {
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+    .faq-categoria h2 {
+        font-size: 1.8rem;
+        text-align: center;
+        padding-left: 0;
+    }
+    .faq-categoria h2::before {
+        display: none;
+    }
+}
+

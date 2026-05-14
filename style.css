@@ -382,13 +382,37 @@ footer a:hover {
 
 /* Responsive Design */
 @media (max-width: 1200px) {
-    .cont-texto-primaria { margin-top: 27vw; }
+    .cont-texto-primaria { margin-top: 35vw; }
+}
+
+@media (max-width: 1150px) {
+    .cont-texto-primaria { margin-top: 40vw; }
+}
+
+@media (max-width: 1100px) {
+    .cont-texto-primaria { margin-top: 44vw; }
+}
+
+@media (max-width: 1050px) {
+    .cont-texto-primaria { margin-top: 48vw; }
 }
 
 @media (max-width: 1024px) {
     #section-primaria h1 { font-size: 2.2rem; }
-    .cont-texto-primaria { margin-top: 45vw; padding: 0 5%; }
+    .cont-texto-primaria { margin-top: 52vw; padding: 0 5%; }
     .content-wrapper { gap: 2rem; }
+}
+
+@media (max-width: 960px) {
+    .cont-texto-primaria { margin-top: 60vw; }
+}
+
+@media (max-width: 900px) {
+    .cont-texto-primaria { margin-top: 70vw; }
+}
+
+@media (max-width: 850px) {
+    .cont-texto-primaria { margin-top: 85vw; }
 }
 
 @media (max-width: 768px) {

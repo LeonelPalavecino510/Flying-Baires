@@ -152,7 +152,7 @@ header {
 }
 
 .cont-texto-primaria {
-    margin-top: 35vw; /* Desktop: Bajamos para evitar solape */
+    margin-top: 27vw; /* Revertido a la posición previa para desktop */
     max-width: 600px;
     margin-inline: auto;
     padding: 20px;
@@ -382,12 +382,12 @@ footer a:hover {
 
 /* Responsive Design */
 @media (max-width: 1200px) {
-    .cont-texto-primaria { margin-top: 42vw; }
+    .cont-texto-primaria { margin-top: 27vw; }
 }
 
 @media (max-width: 1024px) {
     #section-primaria h1 { font-size: 2.2rem; }
-    .cont-texto-primaria { margin-top: 55vw; padding: 0 5%; }
+    .cont-texto-primaria { margin-top: 45vw; padding: 0 5%; }
     .content-wrapper { gap: 2rem; }
 }
 

@@ -382,16 +382,16 @@ footer a:hover {
 
 /* Responsive Design */
 @media (max-width: 1500px) {
-    .cont-texto-primaria { margin-top: 22vw; }
+    .cont-texto-primaria { margin-top: 40vw; }
 }
 
 @media (max-width: 1200px) {
-    .cont-texto-primaria { margin-top: 25vw; }
+    .cont-texto-primaria { margin-top: 40vw; }
     .nav-links-wrapper { gap: 1rem; }
 }
 
 @media (max-width: 1150px) {
-    .cont-texto-primaria { margin-top: 28vw; }
+    .cont-texto-primaria { margin-top: 40vw; }
 }
 
 @media (max-width: 1100px) {
@@ -403,9 +403,9 @@ footer a:hover {
 }
 
 @media (max-width: 1024px) {
-    #section-primaria h1 { font-size: 2.2rem; }
-    .cont-texto-primaria { margin-top: 38vw; padding: 0 5%; }
-    .content-wrapper { gap: 2rem; }
+    #section-primaria h1 { font-size: 1.5rem; }
+    .cont-texto-primaria { margin-top: 40vw; }
+    .content-wrapper { gap: 1rem; }
 }
 
 @media (max-width: 960px) {
@@ -421,7 +421,7 @@ footer a:hover {
 }
 
 @media (max-width: 800px) {
-    .cont-texto-primaria { margin-top: 100vw; }
+    .cont-texto-primaria { margin-top: 90vw; }
 }
 
 
@@ -483,7 +483,7 @@ footer a:hover {
     }
 
     .cont-texto-primaria {
-        margin-top: 118vw; /* Punto medio para que no solape pero no quede tan abajo */
+        margin-top: 70vw; /* Punto medio para que no solape pero no quede tan abajo */
         padding: 0 5%;
     }
 
@@ -535,7 +535,7 @@ footer a:hover {
 
 @media (max-width: 600px) {
     .cont-texto-primaria {
-        margin-top: 130vw;
+        margin-top: 82vw;
     }
 }
 
@@ -552,12 +552,19 @@ footer a:hover {
     #section-primaria h1 { font-size: 1.6rem; }
 
     .cont-texto-primaria {
-        margin-top: 145vw; /* Aumentado para evitar solape en pantallas extra pequeñas */
+        margin-top: 130vw; /* Aumentado para evitar solape en pantallas extra pequeñas */
         padding: 0 5%;
     }
 
     #boton-main {
         padding: 12px 25px;
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width:414px) {
+    .cont-texto-primaria {
+        margin-top: 115vw; /* Aumentado para evitar solape en pantallas extra pequeñas */
+        padding: 0 5%;
     }
 }

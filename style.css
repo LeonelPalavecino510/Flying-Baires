@@ -415,6 +415,11 @@ footer a:hover {
     .cont-texto-primaria { margin-top: 85vw; }
 }
 
+@media (max-width: 800px) {
+    .cont-texto-primaria { margin-top: 130vw; }
+}
+
+
 @media (max-width: 768px) {
     /* Desactivar cursor personalizado en táctiles */
     .cursor-dot, .cursor-outline { display: none; }
